@@ -1,7 +1,7 @@
 program soal3;
 uses crt;
 var
-a,i: integer
+a,i: integer;
 
 
 
@@ -12,7 +12,7 @@ begin
     clrscr;
     write('masukkan angka: ');
     readln(a);
-    logo:='*'
+    logo:='*';
     for i := 1 to a do 
         begin
             
